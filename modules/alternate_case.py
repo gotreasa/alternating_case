@@ -1,2 +1,2 @@
-def print_the_title():
-    print("😊 Welcome to Dummy Kata")
+def to_alternating_case():
+    raise ValueError("❗️ The input should be a string")
