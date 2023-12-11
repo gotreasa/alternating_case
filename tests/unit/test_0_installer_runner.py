@@ -28,3 +28,7 @@ def describe_alternating_case():
     def should_handle_1234():
         """🧪 should convert '12345' to '12345'"""
         assert alternate_case.to_alternating_case("12345") == "12345"
+
+    def should_handle_mix_of_letters_and_numbers():
+        """🧪 should convert '1a2b3c4d5e' to '1A2B3C4D5E'"""  # pragma: allowlist secret
+        assert alternate_case.to_alternating_case("1a2b3c4d5e") == "1A2B3C4D5E"  # pragma: allowlist secret
