@@ -12,3 +12,7 @@ def describe_alternating_case():
     def should_hanle_lower_case_hello_world():
         """🧪 should convert 'hello world' to 'HELLO WORLD'"""
         assert alternate_case.to_alternating_case("hello world") == "HELLO WORLD"
+
+    def should_hanle_upper_case_hello_world():
+        """🧪 should convert 'HELLO WORLD' to 'hello world'"""
+        assert alternate_case.to_alternating_case("HELLO WORLD") == "hello world"
