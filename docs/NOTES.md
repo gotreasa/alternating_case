@@ -10,8 +10,8 @@
 
 ## 🍅 Pomodoro 1
 
-- 🚧 should give an error message when something other than a string is passed
-- ⚠ should convert 'hello world' to 'HELLO WORLD'
+- ✅ should give an error message when something other than a string is passed
+- 🚧 should convert 'hello world' to 'HELLO WORLD'
 - ⚠ should convert 'HELLO WORLD' to 'hello world'
 - ⚠ should convert 'hello WORLD' to 'HELLO world'
 - ⚠ should convert 'HeLLo WoRLD' to 'hEllO wOrld'
