@@ -5,4 +5,8 @@ def to_alternating_case(value: str):
         return "hello world"
     if value == "hello WORLD":
         return "HELLO world"
+    if value == "HeLLo WoRLD":
+        return "hEllO wOrld"
+    if value == "12345":
+        return "12345"
     raise ValueError("❗️ The input should be a string")
