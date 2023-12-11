@@ -32,3 +32,10 @@ def describe_alternating_case():
     def should_handle_mix_of_letters_and_numbers():
         """🧪 should convert '1a2b3c4d5e' to '1A2B3C4D5E'"""  # pragma: allowlist secret
         assert alternate_case.to_alternating_case("1a2b3c4d5e") == "1A2B3C4D5E"  # pragma: allowlist secret
+
+    def should_handle_code_with_changing_case():
+        """🧪 should convert 'String.prototype.toAlternatingCase' to 'sTRING.PROTOTYPE.TOaLTERNATINGcASE'"""
+        assert (
+            alternate_case.to_alternating_case("String.prototype.toAlternatingCase")
+            == "sTRING.PROTOTYPE.TOaLTERNATINGcASE"
+        )
